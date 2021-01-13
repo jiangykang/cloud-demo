@@ -24,6 +24,11 @@
             <artifactId>okhttp</artifactId>
             <version>3.9.0</version>
         </dependency>
+        <!-- Eureka客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>cn.itcast.demo</groupId>
             <artifactId>user-service</artifactId>
