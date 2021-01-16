@@ -29,7 +29,10 @@ public class UserService {
         ServiceInstance instance = instances.get(0);
 
         //获取ip和端口信息
-        String baseUrl = "http://"+instance.getHost() + ":" + instance.getPort()+"/user/";
+        //String baseUrl = "http://"+instance.getHost() + ":" + instance.getPort()+"/user/";
+
+        // 地址直接写服务名称即可
+        String baseUrl = "http://user-service/user/";
 
         ids.forEach(id -> {
             //测试多次查询
